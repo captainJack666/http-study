@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>跨域页面</title>
+</head>
+<body>
+  <h2>跨域demo</h2>
+  <script>
+    // 1- 基础写法
+    // var xhr = new XMLHttpRequest()
+    // xhr.open('GET', 'http://127.0.0.1:8887')
+    // xhr.send()
+
+    // 2- fetch && cors
+    fetch('http://127.0.0.1:8887', {
+      // method: 'POST',
+      method: 'PUT',
+      // 此处添加一条自定义头信息
+      headers: {
+        'X-Test-Cors111': 'test'
+      }
+    })
+  </script>
+</body>
+</html>
