@@ -1,17 +1,18 @@
-## server
+
+### 本文详见
+- github: https://github.com/captainJack666/http-study/tree/master/cross-domain
+- segmentfault: https://segmentfault.com/a/1190000017249063
+
+## server文件夹
 ### server.js 提供主server api服务
 npm run server/server.js 开启服务
 
 ### staticServer.js 提供一个静态html容器
 npm run server/staticServer.js 开启服务
 
-## www
+## www文件夹
 ### cross-domain.html 客户端页面，发送XHR或者fetch
 
-本文详见
-
-- github: 
-- segmentfault: 
 
 ## 浏览器跨域相关
 
